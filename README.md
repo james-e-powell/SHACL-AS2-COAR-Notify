@@ -9,11 +9,11 @@ This repository hosts AS2 and COAR-Notify SHACL shapefiles, which can be used to
 - [Shapes Constraints Language : SHACL](https://www.w3.org/TR/shacl/)
 
 ### Below is a list of shapefiles used by the  [COAR-notify validation service](https://notify-inbox.info/)
-`acknowledge-and-accept-shape.ttl: ex:ValidationShape`
-rdfs:label "Acknowledge and Accept AS2 COAR-Notify Shape".
+`acknowledge-and-accept-shape.ttl: ex:ValidationShape
+ rdfs:label "Acknowledge and Accept AS2 COAR-Notify Shape".`
 
-acknowledge-and-reject-shape.ttl: ex:ValidationShape
-rdfs:label "Acknowledge and Reject AS2 COAR-Notify Shape".
+`acknowledge-and-reject-shape.ttl: ex:ValidationShape
+rdfs:label "Acknowledge and Reject AS2 COAR-Notify Shape".`
 
 acknowledge-and-tentative-accept-shape.ttl: ex:ValidationShape
 rdfs:label "Acknowledge and Tentative Accept AS2 COAR-Notify Shape".
