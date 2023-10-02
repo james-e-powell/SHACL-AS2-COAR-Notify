@@ -19,19 +19,9 @@ This repository hosts AS2 and COAR-Notify SHACL shapefiles, which can be used to
 | *announce-ingest-shape.ttl* | ` ex:ValidationShape rdfs:label "Announce-Ingest AS2 COAR-Notify Shape".` |
 | *announce-relationship-shape.ttl* | `ex:ValidationShape rdfs:label "Announce-Relationship AS2 COAR-Notify Shape".` |
 | *announce-review-shape.ttl* | `ex:ValidationShape rdfs:label "Announce-Review AS2 COAR-Notify Shape".` |
-
-- announce-shape.ttl: ex:ValidationShape
-- rdfs:label "Announce AS2 COAR-Notify Shape".
-
-- offer-endorse-shape.ttl: ex:ValidationShape
-- rdfs:label "Offer-Review AS2 COAR-Notify Shape".
-
-- offer-ingest-shape.ttl: ex:ValidationShape
-- rdfs:label "Offer-Ingest AS2 COAR-Notify Shape".
-
-- offer-review-shape.ttl: ex:ValidationShape
-- rdfs:label "Offer-Review AS2 COAR-Notify Shape".
-
-- undo-shape.ttl: ex:ValidationShape
-- rdfs:label "Undo AS2 COAR-Notify Shape".
+| *announce-shape.ttl* | `ex:ValidationShape rdfs:label "Announce AS2 COAR-Notify Shape". `|
+| *offer-endorse-shape.ttl*  | `ex:ValidationShape rdfs:label "Offer-Review AS2 COAR-Notify Shape".`|
+| *offer-ingest-shape.ttl* | `ex:ValidationShape rdfs:label "Offer-Ingest AS2 COAR-Notify Shape".`|
+| *offer-review-shape.ttl* | `ex:ValidationShape rdfs:label "Offer-Review AS2 COAR-Notify Shape".`|
+| *undo-shape.ttl* | `ex:ValidationShape rdfs:label "Undo AS2 COAR-Notify Shape".` |
 
