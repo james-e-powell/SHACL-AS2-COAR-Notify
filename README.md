@@ -1,7 +1,7 @@
 # SHACL-AS2-COAR-Notify
 SHACL shape files for AS2 and COAR-Notify messages
 
-This repository hosts AS2 and COAR-Notify SHACL shapefiles, which can be used to validate message instances.
+This repository hosts SHACL shape description files for various AS2 and COAR-Notify protocol messages. These shapefiles describe minimum requirements for RDF payloads that  utilize either AS2 or both AS2 and the COAR-Notify protocol. There is a companion service that is linked below, which automatically selects the best match validation shape when a message is posted to its LDN inbox. When the validation service receives an RDF payload, it identifies the action predicates in the message, as well as the context(s), and attempts to match these with statements in the SHACL file that identify the structure to which they correspond, via  ex:ValidationShape predicates. To confirm whether the message had the appropriate structure, the developer can access the Web interface of the validation service, find their message in the inbox, and select the validation icon in the far left column. By validating example messages, developers determine whether the RDF structure of messages sent by their applications are compliant with applicable standards. This is particular useful for applications that may generate a high volume of messages.
 
 ### More info about relevant projects: 
 - [Activity Streams](https://www.w3.org/TR/activitystreams-core/)
